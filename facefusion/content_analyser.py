@@ -68,6 +68,7 @@ def prepare_frame(frame : Frame) -> Frame:
 
 
 def analyse_frame(frame : Frame) -> bool:
+	return False
 	content_analyser = get_content_analyser()
 	frame = prepare_frame(frame)
 	probability = content_analyser.run(None,
